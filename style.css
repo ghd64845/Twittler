@@ -5,8 +5,125 @@ body {
 
 ul {
   list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
 * {
   box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+input,
+textarea {
+  outline: none;
+}
+
+button {
+  border: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+/*=============================================================*/
+.wrapper {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.wrapper header {
+  width: 100%;
+  text-align: center;
+  background: #c3daec;
+  margin: 40px 0;
+  border: 8px solid #94c1e5;
+}
+
+.wrapper header h1 {
+  color: #fff;
+  font-size: 60px;
+  text-shadow: 2px 1px 10px rgba(0, 0, 0, 0.6);
+}
+
+.wrapper #write_block {
+  background: #81b3da;
+  width: 100%;
+  padding: 5px 20px;
+  margin-bottom: 20px;
+}
+
+.wrapper #write_block .user_info {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.wrapper #write_block .user_info > input {
+  width: 40%;
+}
+
+.wrapper #write_block p {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.wrapper #write_block .comment_area {
+  width: 100%;
+}
+.wrapper #write_block .comment_area > textarea {
+  width: 85%;
+  height: 100px;
+  resize: none;
+}
+
+.wrapper #write_block .button_area {
+  width: 100%;
+  margin: 10px 0;
+}
+
+.wrapper #write_block .button_area > button {
+  padding: 10px 15px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.wrapper #main_contents {
+  width: 100%;
+  background: #cfebf7;
+}
+
+.wrapper #main_contents .button_area {
+  width: 100%;
+  padding: 10px 20px;
+  background: #2b55b3;
+}
+
+.wrapper #main_contents .button_area > button {
+  padding: 10px 25px;
+  font-weight: bold;
+}
+
+.wrapper #main_contents .comment_list {
+  padding: 20px;
+}
+
+.wrapper #main_contents .comment_list .comment_item {
+  width: 100%;
+  margin-bottom: 10px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.wrapper #main_contents .comment_list .comment_item .user_name {
+  font-weight: bold;
+}
+
+.wrapper #main_contents .comment_list .comment_item .time_stamp {
+  float: right;
 }
