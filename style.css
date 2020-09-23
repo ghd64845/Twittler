@@ -66,6 +66,7 @@ button {
 
 .wrapper #write_block .user_info > input {
   width: 40%;
+  padding: 5px 10px;
 }
 
 .wrapper #write_block p {
@@ -126,4 +127,10 @@ button {
 
 .wrapper #main_contents .comment_list .comment_item .time_stamp {
   float: right;
+}
+
+@media screen and (max-width: 586px) {
+  .wrapper {
+    width: 100%;
+  }
 }
